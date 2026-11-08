@@ -23,7 +23,7 @@ Stores information extracted from images by Gemini Flash.
 - caption TEXT
 - confidence FLOAT
 - review_status VARCHAR
-- embedding VECTOR(D)
+- embedding VECTOR(768)
 - embedding_model VARCHAR
 - created_at TIMESTAMP
 
@@ -32,7 +32,7 @@ Stores blog post content and its semantic representation.
 - id UUID PRIMARY KEY
 - title VARCHAR
 - content TEXT
-- embedding VECTOR(D)
+- embedding VECTOR(768)
 - embedding_model VARCHAR
 - created_at TIMESTAMP
 
@@ -97,7 +97,7 @@ Tracks individual AI operations and their estimated costs.
 - pgvector cosine distance operator: `<=>`
 - Lower cosine distance indicates greater similarity.
 
-The final vector dimension (D) will be confirmed after selecting the Gemini embedding model.
+Embedding model: gemini-embedding-2. Output dimensions: 768.
 
 ## 4. Indexing Strategy
 
@@ -136,3 +136,4 @@ Post Embedding + Image Embeddings
     -> Mismatch Guard
     -> Ranked Suggestions
     -> Human Review
+
