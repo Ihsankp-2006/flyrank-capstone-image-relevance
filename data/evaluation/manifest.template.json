@@ -1,0 +1,11 @@
+{
+  "image_ids": [],
+  "categories": [],
+  "posts": [
+    {
+      "post_id": "replace-with-post-uuid",
+      "relevant_image_ids": ["replace-with-image-uuid"],
+      "mismatched_image_ids": ["replace-with-known-incorrect-image-uuid"]
+    }
+  ]
+}

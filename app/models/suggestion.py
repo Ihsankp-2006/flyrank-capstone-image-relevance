@@ -1,7 +1,15 @@
 import uuid
 from datetime import datetime, timezone
 
-from sqlalchemy import String, Text, Float, DateTime, ForeignKey
+from sqlalchemy import (
+    String,
+    Text,
+    Float,
+    DateTime,
+    ForeignKey,
+    Index,
+    UniqueConstraint,
+)
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -10,6 +18,11 @@ from app.core.database import Base
 
 class Suggestion(Base):
     __tablename__ = "suggestions"
+    __table_args__ = (
+        UniqueConstraint("post_id", "image_id", name="uq_suggestions_post_image"),
+        Index("ix_suggestions_post_id", "post_id"),
+        Index("ix_suggestions_image_id", "image_id"),
+    )
 
     id: Mapped[uuid.UUID] = mapped_column(
         UUID(as_uuid=True),

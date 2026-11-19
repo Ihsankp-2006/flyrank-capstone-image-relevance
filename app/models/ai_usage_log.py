@@ -1,7 +1,7 @@
 import uuid
 from datetime import datetime, timezone
 
-from sqlalchemy import String, Integer, DateTime, ForeignKey, Numeric
+from sqlalchemy import String, Integer, DateTime, ForeignKey, Numeric, Index
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -10,6 +10,10 @@ from app.core.database import Base
 
 class AIUsageLog(Base):
     __tablename__ = "ai_usage_logs"
+    __table_args__ = (
+        Index("ix_ai_usage_logs_image_id", "image_id"),
+        Index("ix_ai_usage_logs_post_id", "post_id"),
+    )
 
     id: Mapped[uuid.UUID] = mapped_column(
         UUID(as_uuid=True),

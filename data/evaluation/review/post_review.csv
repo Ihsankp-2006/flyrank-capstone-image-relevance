@@ -1,0 +1,11 @@
+﻿post_id,post_title,post_content,correct_image_id,human_verified,reviewer_notes
+post-01,Wildlife observation in natural habitats,"A field guide discussing animals, insects, and their natural habitats.",wildlife-03,true,Image match reviewed and approved by the user.
+post-02,How wildlife adapts to the outdoors,An article about observing wild animals and ecological adaptation.,wildlife-07,true,Image match reviewed and approved by the user.
+post-03,Photographing wild species responsibly,A practical guide to wildlife photography and respectful observation.,wildlife-01,true,Image match reviewed and approved by the user.
+post-04,Food photography and prepared dishes,"An article about cooking, prepared meals, and food presentation.",food-04,true,Image match reviewed and approved by the user.
+post-05,Documenting recipes with images,A guide to using photographs of dishes and ingredients in recipe writing.,food-02,true,Image match reviewed and approved by the user.
+post-06,The visual language of cuisine,"A discussion of meals, culinary traditions, and food composition.",food-09,true,Image match reviewed and approved by the user.
+post-07,Computers in modern work,"An article about computers, hardware, and digital technology.",technology-04,true,Image match reviewed and approved by the user.
+post-08,Understanding computer hardware,A beginner guide to computer components and technical equipment.,technology-05,true,Image match reviewed and approved by the user.
+post-09,Mountain landscapes and travel,"A travel article about scenic landscapes, mountains, and outdoor destinations.",travel-05,true,Image match reviewed and approved by the user.
+post-10,Planning a landscape-focused journey,A guide to visiting scenic natural landscapes and travel destinations.,travel-08,true,Image match reviewed and approved by the user.

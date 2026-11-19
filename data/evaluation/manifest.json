@@ -1,0 +1,194 @@
+{
+  "labels_verified": true,
+  "image_ids": [
+    "wildlife-01",
+    "wildlife-02",
+    "wildlife-03",
+    "wildlife-04",
+    "wildlife-05",
+    "wildlife-06",
+    "wildlife-07",
+    "wildlife-08",
+    "wildlife-09",
+    "wildlife-10",
+    "food-01",
+    "food-02",
+    "food-03",
+    "food-04",
+    "food-05",
+    "food-06",
+    "food-07",
+    "food-08",
+    "food-09",
+    "food-10",
+    "technology-01",
+    "technology-02",
+    "technology-03",
+    "technology-04",
+    "technology-05",
+    "technology-06",
+    "technology-07",
+    "technology-08",
+    "technology-09",
+    "technology-10",
+    "travel-01",
+    "travel-02",
+    "travel-03",
+    "travel-04",
+    "travel-05",
+    "travel-06",
+    "travel-07",
+    "travel-08",
+    "travel-09",
+    "travel-10"
+  ],
+  "categories": [
+    "food",
+    "technology",
+    "travel",
+    "wildlife"
+  ],
+  "posts": [
+    {
+      "post_id": "post-01",
+      "title": "Wildlife observation in natural habitats",
+      "content": "A field guide discussing animals, insects, and their natural habitats.",
+      "category": "wildlife",
+      "relevant_image_ids": [
+        "wildlife-01"
+      ],
+      "mismatched_image_ids": [
+        "food-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    },
+    {
+      "post_id": "post-02",
+      "title": "How wildlife adapts to the outdoors",
+      "content": "An article about observing wild animals and ecological adaptation.",
+      "category": "wildlife",
+      "relevant_image_ids": [
+        "wildlife-02"
+      ],
+      "mismatched_image_ids": [
+        "food-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    },
+    {
+      "post_id": "post-03",
+      "title": "Photographing wild species responsibly",
+      "content": "A practical guide to wildlife photography and respectful observation.",
+      "category": "wildlife",
+      "relevant_image_ids": [
+        "wildlife-03"
+      ],
+      "mismatched_image_ids": [
+        "food-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    },
+    {
+      "post_id": "post-04",
+      "title": "Food photography and prepared dishes",
+      "content": "An article about cooking, prepared meals, and food presentation.",
+      "category": "food",
+      "relevant_image_ids": [
+        "food-01"
+      ],
+      "mismatched_image_ids": [
+        "wildlife-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    },
+    {
+      "post_id": "post-05",
+      "title": "Documenting recipes with images",
+      "content": "A guide to using photographs of dishes and ingredients in recipe writing.",
+      "category": "food",
+      "relevant_image_ids": [
+        "food-02"
+      ],
+      "mismatched_image_ids": [
+        "wildlife-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    },
+    {
+      "post_id": "post-06",
+      "title": "The visual language of cuisine",
+      "content": "A discussion of meals, culinary traditions, and food composition.",
+      "category": "food",
+      "relevant_image_ids": [
+        "food-03"
+      ],
+      "mismatched_image_ids": [
+        "wildlife-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    },
+    {
+      "post_id": "post-07",
+      "title": "Computers in modern work",
+      "content": "An article about computers, hardware, and digital technology.",
+      "category": "technology",
+      "relevant_image_ids": [
+        "technology-01"
+      ],
+      "mismatched_image_ids": [
+        "wildlife-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    },
+    {
+      "post_id": "post-08",
+      "title": "Understanding computer hardware",
+      "content": "A beginner guide to computer components and technical equipment.",
+      "category": "technology",
+      "relevant_image_ids": [
+        "technology-02"
+      ],
+      "mismatched_image_ids": [
+        "wildlife-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    },
+    {
+      "post_id": "post-09",
+      "title": "Mountain landscapes and travel",
+      "content": "A travel article about scenic landscapes, mountains, and outdoor destinations.",
+      "category": "travel",
+      "relevant_image_ids": [
+        "travel-01"
+      ],
+      "mismatched_image_ids": [
+        "wildlife-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    },
+    {
+      "post_id": "post-10",
+      "title": "Planning a landscape-focused journey",
+      "content": "A guide to visiting scenic natural landscapes and travel destinations.",
+      "category": "travel",
+      "relevant_image_ids": [
+        "travel-02"
+      ],
+      "mismatched_image_ids": [
+        "wildlife-01"
+      ],
+      "label_basis": "Provisional category label; human verification required",
+      "post_basis": "Authored evaluation prompt; not a sourced blog post"
+    }
+  ],
+  "provenance_file": "provenance.json"
+}
